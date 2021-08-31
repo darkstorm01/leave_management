@@ -1,0 +1,24 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:gray;
+}
+
+.links{
+  float: left;
+  display: block;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.links:hover {
+  background-color: rgb(66, 65, 65);
+  cursor:pointer;
+  color: white;
+}
